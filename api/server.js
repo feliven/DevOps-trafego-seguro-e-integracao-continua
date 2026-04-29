@@ -341,5 +341,5 @@ https
     server,
   )
   .listen(8000, () => {
-    console.log("API disponível em https://localhost:8000");
+    console.log("API disponível aqui: https://localhost:8000");
   });
