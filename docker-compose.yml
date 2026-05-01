@@ -1,0 +1,17 @@
+services:
+  server:
+    build:
+      context: .
+      args:
+        NODE_VERSION: "24"
+    container_name: alurabooks
+    environment:
+      - NODE_ENV=development
+      - CHOKIDAR_USEPOLLING=true
+    ports:
+      - 80:3000
+    volumes:
+      - .:/app
+      - /app/node_modules
+    stdin_open: true
+    tty: true
