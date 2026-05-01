@@ -1,7 +1,7 @@
 {
   "AWSEBDockerrunVersion": "1",
   "Image": {
-    "Name": "venturafelipe/alurabooks:1.4",
+    "Name": "venturafelipe/imagem-github-actions:latest",
     "Update": "true"
   },
   "Ports": [
