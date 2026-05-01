@@ -14,8 +14,7 @@ const Home = () => {
   const lancamentos = [
     {
       autor: "Tárcio Zemel",
-      descricao:
-        "Técnicas e ferramentas que fazem a diferença nos seus estilos",
+      descricao: "Técnicas e ferramentas que fazem a diferença nos seus estilos",
       imagem: "/imagens/livros/css.jpg",
       nome: "CSS Eficiente",
       preco: 29.9,
@@ -29,7 +28,7 @@ const Home = () => {
     },
     {
       autor: "Diego Eis",
-      descricao: "O caminho das pedras para ser um dev Front-End",
+      descricao: "O caminho das pedras para ser um dev frontend",
       imagem: "/imagens/livros/frontend.jpg",
       nome: "Guia Front-End",
       preco: 29.9,
@@ -45,8 +44,7 @@ const Home = () => {
     },
     {
       autor: "Akira Hanashiro",
-      descricao:
-        "A revolucionária linguagem de consulta e manipulação de dados para APIs",
+      descricao: "A revolucionária linguagem de consulta e manipulação de dados para APIs",
       imagem: "/imagens/livros/graphql.jpg",
       nome: "GraphQL",
       preco: 29.9,
