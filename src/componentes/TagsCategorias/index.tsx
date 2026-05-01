@@ -7,9 +7,9 @@ const TagsCategorias = () => {
     "Android",
     "Orientação a Objetos",
     "Marketing Digital",
-    "Agile",
+    "Ágil",
     "Startups",
-    "HTML & CSS",
+    "HTML e CSS",
     "Java",
     "Python",
   ];
