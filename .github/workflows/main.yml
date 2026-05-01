@@ -13,8 +13,6 @@ jobs:
   testes:
     runs-on: ubuntu-latest
 
-    defaults:
-
     steps:
       - uses: actions/checkout@v6
       - name: Use Node.js
