@@ -28,4 +28,4 @@ jobs:
         run: echo ${{ secrets.DOCKERHUB_TOKEN }} | docker login -u ${{ secrets.DOCKERHUB_USER }} --password-stdin
 
       - name: Push da Imagem Docker
-        run: docker push imagem-github-actions
+        run: docker push venturafelipe/imagem-github-actions
